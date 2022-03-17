@@ -19,6 +19,9 @@ public class Exceptions {
         catch(Exception b){
             System.out.println(b);
         }
+        finally {
+            System.out.println("Finally is used bcoz if there is exception the code breaks so to print anything after the code it is used");
+        }
 
     }
 }
